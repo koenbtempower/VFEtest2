@@ -17,6 +17,7 @@ namespace Hello_Devops_World_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
+			// generates an information event
 			engine.GenerateInformation("Hello Devops world!");
 	
 		}
